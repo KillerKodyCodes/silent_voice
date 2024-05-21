@@ -1,15 +1,33 @@
-#nav-container{
+#nav-container {
+  position: relative;
   display: flex;
-  flex-direction: row;
-  width: 100%;
   justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  width: 100%;
 }
 
-#links-container{
+#nav-logo {
+  position: absolute;
+  left: 1rem;
+  height: 8rem;
+}
+
+#title {
+  text-align: center;
+  flex: none;
+}
+
+#links-container {
+  position: absolute;
+  right: 1rem;
   display: flex;
   flex-direction: row;
 }
 
-.nav-link{
-
+.nav-link {
+  color: var(--eerie-black);
+  font-size: larger;
+  text-decoration: none;
+  margin: 0 1rem;
 }

@@ -8,8 +8,36 @@
 }
 
 
+
 body{
   margin: 0;
   position: relative;
   justify-content: center;
+  background-color: var(--wheat);
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+
+}
+
+.italic-txt{
+  font-style: italic;
+}
+
+.bold-txt{
+  font-style:bold;
+}
+
+.larger-txt{
+  font-size: 35pt;
+  font-weight: 600;
+}
+
+.large-txt{
+  font-size: 25pt;
+  font-weight: 400;
+}
+
+.medium-txt{
+  font-size: 18pt;
+  font-weight: 400;
 }

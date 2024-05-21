@@ -1,4 +1,4 @@
-.info-container{
+.centered-div{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -17,3 +17,8 @@
 }
 
 
+#banner-logo{
+  border-radius: 2rem;
+  width: 60rem;
+  height: auto;
+}
