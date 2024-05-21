@@ -1,0 +1,19 @@
+.info-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: aquamarine; */
+}
+
+.info-container > div {
+  background-color: aliceblue;
+}
+
+
+#contact-form{
+  display: flex;
+  flex-direction: column;
+}
+
+

@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --alabaster: #ede7daff;
+  --chamoisee: #a87453ff;
+  --tan: #cba892ff;
+  --wheat: #efdab5ff;
+  --eerie-black: #181b16ff;
+}
+
+
+body{
+  margin: 0;
+  position: relative;
+  justify-content: center;
+}
