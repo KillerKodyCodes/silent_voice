@@ -7,6 +7,13 @@
   width: 100%;
 }
 
+
+@media (max-width: 1200px){
+  #nav-container{
+    display: none;
+  }
+}
+
 #nav-logo {
   position: absolute;
   left: 1rem;
