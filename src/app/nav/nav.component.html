@@ -1,4 +1,4 @@
-<div id="nav-container">
+<div id="nav-container-desktop">
   <img src="assets/images/circleLogo.png" id="nav-logo"/>
   <h1 class="larger-txt italic-txt" id="title">Silent Voice Loud Hands</h1>
   <div id="links-container">
@@ -6,4 +6,23 @@
     <a class="nav-link" routerLink="/about">About</a>
     <a class="nav-link" routerLink="/contact">Contact</a>
   </div>
+</div>
+
+<!-- <div id="nav-container-mobile">
+  <h1 class="large-txt italic-txt" id="title">Silent Voice Loud Hands</h1>
+</div> -->
+
+
+<div id="nav-container-mobile" [class.active]="isMenuOpen">
+  <h1 class="medium-txt italic-txt" id="title">Silent Voice Loud Hands</h1>
+  <button id="hamburger-menu" aria-label="Toggle navigation" (click)="toggleMenu()">
+    &#9776; <!-- Unicode character for hamburger icon -->
+  </button>
+  <nav id="links-container-mobile">
+    <ul>
+      <li (click)="navigate('')"><a class="nav-link" routerLink="" (click)="closeMenu($event)">Home</a></li>
+      <li (click)="navigate('/about')"><a class="nav-link" routerLink="/about" (click)="closeMenu($event)">About</a></li>
+      <li (click)="navigate('/contact')"><a class="nav-link" routerLink="/contact" (click)="closeMenu($event)">Contact</a></li>
+    </ul>
+  </nav>
 </div>
