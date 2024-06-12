@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { ContactFormComponent } from '../contact-form/contact-form.component';
 
+
 @Component({
   selector: 'app-home-page',
   standalone: true,

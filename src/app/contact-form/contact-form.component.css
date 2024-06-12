@@ -2,7 +2,7 @@
 .container {
   max-width: 80%;
   width: 50rem;
-  margin: 0 auto;
+  margin: 0 0;
   padding: 20px;
   background-color: var(--alabaster);
   border-radius: 8px;
@@ -50,3 +50,8 @@ button[type="submit"]:hover {
 
 
 
+@media (max-width: 991.98px){
+  .container {
+    margin: 0 auto;
+  }
+}
