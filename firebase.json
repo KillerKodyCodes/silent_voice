@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/silent_voice/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
